@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=Slice&color=auto&height=180&section=header&text=nick&fontSize=80&fontColor=343a40&animation=twinkling&rotate=-5)
+![header](https://capsule-render.vercel.app/api?type=Slice&color=auto&height=180&section=header&text=JUYONG&fontSize=80&fontColor=343a40&animation=twinkling&rotate=-5)
 <br>
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
   
