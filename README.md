@@ -1,13 +1,14 @@
-# Juyong
-
-주용 · 초보 개발자 · 대전, 한국 🇰🇷
+<!-- 타이핑 애니메이션 헤더 (SVG) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=343A40&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Juyong+%F0%9F%91%8B;Frontend+%2B+Database+Developer;Always+Learning+%F0%9F%93%9A" alt="Typing SVG" />
+</p>
 
 ---
 
 ## About
 
 웹 개발을 배우고 있는 초보 개발자입니다.  
-프론트엔드와 데이터베이스를 함께 공부하며 작은 프로젝트들을 만들어 가고 있습니다.
+프론트엔드와 데이터베이스를 함께 공부하며 성장 중입니다 🌱
 
 ---
 
@@ -24,6 +25,15 @@
 
 ---
 
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_ID&show_icons=true&theme=default&hide_border=true" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_ID&hide_border=true" height="150"/>
+</p>
+
+---
+
 ## Connect
 
-[GitHub](https://github.com/YOUR_ID) · [Email](mailto:your@email.com)
+[GitHub](https://github.com/cju9390) · [Email](mailto:cju9390@gmail.com)
