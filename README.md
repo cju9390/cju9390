@@ -25,15 +25,6 @@
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_ID&show_icons=true&theme=default&hide_border=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_ID&hide_border=true" height="150"/>
-</p>
-
----
-
 ## Connect
 
 [GitHub](https://github.com/cju9390) · [Email](mailto:cju9390@gmail.com)
