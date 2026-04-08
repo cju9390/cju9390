@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <!-- 타이핑 애니메이션 -->
@@ -52,28 +51,17 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=cju9390&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cju9390&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-
-</div>
-
----
-
 ## 🚀 Featured Project
 
-<div align="center">
+### 🎲 MBTI × Fantasy RPG
 
-[![MBTI RPG Card](https://github-readme-stats.vercel.app/api/pin/?username=cju9390&repo=project_mbti_job_game.io&theme=tokyonight&hide_border=true)](https://github.com/cju9390/project_mbti_job_game.io)
+> MBTI 설문 응답으로 중세 판타지 직업 클래스를 예측하는 웹앱
 
-</div>
-
-> 🎲 **MBTI × Fantasy RPG** — MBTI 설문 응답으로 중세 판타지 직업 클래스를 예측하는 웹앱  
-> `Flask` `XGBoost` `SQLite3` `Chart.js`
+| | |
+|---|---|
+| 🔗 **Repository** | [project_mbti_job_game.io](https://github.com/cju9390/project_mbti_job_game.io) |
+| 🛠 **Stack** | `Flask` `XGBoost` `SQLite3` `Chart.js` |
+| 📌 **핵심 기능** | MBTI 예측 · RPG 직업 매핑 · 파티 추천 · 레이더 차트 |
 
 ---
 
