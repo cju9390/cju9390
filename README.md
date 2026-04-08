@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/26561255/README.md)
+[README (1).md](https://github.com/user-attachments/files/26561357/README.1.md)
 <div align="center">
 
 <!-- 타이핑 애니메이션 -->
@@ -56,9 +56,9 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=cju9390&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=cju9390&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cju9390&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cju9390&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 
 </div>
 
@@ -68,7 +68,7 @@
 
 <div align="center">
 
-[![MBTI RPG Card](https://github-readme-stats.vercel.app/api/pin/?username=cju9390&repo=mbti-rpg&theme=tokyonight&hide_border=true)](https://github.com/cju9390)
+[![MBTI RPG Card](https://github-readme-stats.vercel.app/api/pin/?username=cju9390&repo=project_mbti_job_game.io&theme=tokyonight&hide_border=true)](https://github.com/cju9390/project_mbti_job_game.io)
 
 </div>
 
