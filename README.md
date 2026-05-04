@@ -1,7 +1,7 @@
 <!-- 헤더 -->
 <div align="center">
 
-<img src="YOUR_PHOTO_URL_HERE" width="120" style="border-radius: 50%;" alt="최주용"/>
+<img src="../users/301-07/self photo" width="120" style="border-radius: 50%;" alt="최주용"/>
 
 # 최주용 | Juyong Choi
 
