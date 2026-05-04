@@ -8,7 +8,6 @@
 *From Bench to Code — Bridging Biology and Medical AI*
 
 [![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=flat-square&logo=github)](https://github.com/cju9390)
-[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=flat-square&logo=tistory)](https://taeddy-note.tistory.com)
 [![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=flat-square&logo=gmail)](mailto:cju9390@naver.com)
 
 </div>
@@ -115,7 +114,6 @@ choi_juyong = {
 | **SQL 개발자 (SQLD)** | 한국데이터베이스진흥센터 | 2026 |
 | 박사 수료 — 생명과학 / 기능유전체학 | 과학기술연합대학원대학교 | 2021~2023 |
 | 석사 — 의생명과학과 | 아주대학교 의과대학원 | 2017~2019 |
-| TOEIC 760 | — | 2019 |
 
 ---
 
