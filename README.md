@@ -1,20 +1,23 @@
 <!-- 헤더 -->
 <div align="center">
 
+<img src="YOUR_PHOTO_URL_HERE" width="120" style="border-radius: 50%;" alt="최주용"/>
+
 # 최주용 | Juyong Choi
 
-###  생명과학에서 의료 AI로, 도메인을 아는 개발자
+### 생명과학에서 의료 AI로, 도메인을 아는 개발자
 
 *From Bench to Code — Bridging Biology and Medical AI*
 
 [![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=flat-square&logo=github)](https://github.com/cju9390)
+[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=flat-square&logo=tistory)](https://taeddy-note.tistory.com)
 [![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=flat-square&logo=gmail)](mailto:cju9390@naver.com)
 
 </div>
 
 ---
 
-##  About Me
+## About Me
 
 ```python
 choi_juyong = {
@@ -33,9 +36,9 @@ choi_juyong = {
 
 ---
 
-##  Featured Projects
+## Featured Projects
 
-###  AKI 조기 예측 CDSS
+### AKI 조기 예측 CDSS
 > **급성 신손상(AKI) 48시간 이내 조기 예측 임상의사결정지원시스템**
 
 | 항목 | 내용 |
@@ -53,7 +56,7 @@ choi_juyong = {
 
 ---
 
-###  MBTI RPG 직업 예측 웹앱
+### MBTI RPG 직업 예측 웹앱
 > **60문항 설문으로 MBTI를 예측하고 판타지 RPG 직업을 추천하는 웹 서비스**
 
 | 항목 | 내용 |
@@ -69,7 +72,7 @@ choi_juyong = {
 
 ---
 
-##  Tech Stack
+## 🛠 Tech Stack
 
 **Language & ML/AI**
 
@@ -107,7 +110,7 @@ choi_juyong = {
 
 ---
 
-##  Certificates & Education
+## 📜 Certificates & Education
 
 | 자격 / 학력 | 기관 | 연도 |
 |------------|------|------|
@@ -117,9 +120,9 @@ choi_juyong = {
 
 ---
 
-##  Publications
+## 📄 Publications
 
-> 배재대학교 석사 학위 중 공동 저자로 참여한 논문 목록
+> 아주대학교 의과대학원 석사 과정 중 공동 저자로 참여한 논문 목록
 
 - Ufd1 phosphorylation at serine 229 negatively regulates ER-associated degradation *(2019)*
 - Histone deacetylase 6 inhibitor tubastatin A attenuates angiotensin II-induced hypertension *(2019)*
