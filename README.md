@@ -1,138 +1,134 @@
-<!-- 헤더 -->
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Juyong%20Choi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=생명과학에서%20의료%20AI로&descAlignY=58&descSize=16" />
 
-# 최주용 | Juyong Choi
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Life+Scientist+%E2%86%92+Medical+AI+Developer;임상+데이터의+맥락을+아는+개발자;From+Bench+to+Code" />
 
-### 생명과학에서 의료 AI로, 도메인을 아는 개발자
+<br>
 
-*From Bench to Code — Bridging Biology and Medical AI*
-
-[![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=flat-square&logo=github)](https://github.com/cju9390)
-[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=flat-square&logo=tistory)](https://taeddy-note.tistory.com)
-[![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=flat-square&logo=gmail)](mailto:cju9390@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=for-the-badge&logo=github)](https://github.com/cju9390)
+[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=for-the-badge&logo=tistory)](https://taeddy-note.tistory.com)
+[![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=for-the-badge&logo=gmail)](mailto:cju9390@naver.com)
 
 </div>
 
----
+<br>
 
 ## About Me
 
 ```python
 choi_juyong = {
-    "background": "생명과학 연구자 (KRIBB 대사제어연구센터, 4년 6개월)",
-    "degree"    : ["석사 — 아주대학교 의과대학원 (의생명과학)",
-                   "박사 수료 — 과학기술연합대학원대학교 (기능유전체학)"],
-    "pivot"     : "의료 AI 개발자",
-    "location"  : "대전광역시, 대한민국",
-    "strength"  : "임상 데이터의 맥락을 이해하는 개발자",
+    "role"      : "Life Scientist → Medical AI Developer",
+    "background": "KRIBB 대사제어연구센터 학생연구원 (2021–2025, 4년 6개월)",
+    "education" : ["배재대 생물의약학과 (학사)",
+                   "아주대 의과대학원 의생명과학 (석사)",
+                   "UST 기능유전체학 (박사 수료)"],
+    "now"       : "임상 데이터 맥락을 이해하는 개발자로 성장 중",
+    "interests" : ["Medical AI", "Clinical Data", "Pathology (WSI)"],
 }
 ```
 
-> 연구실에서 방대한 실험 데이터를 정리하며 처음 Python을 접했고,
-> *"도메인 지식 + IT 기술이 만나면 더 의미 있는 일을 할 수 있다"* 는 확신으로
-> 의료 AI 개발자로의 전환을 결심했습니다.
 
----
+<br>
 
-## Featured Projects
+<br>
 
-### AKI 조기 예측 CDSS
-> **급성 신손상(AKI) 48시간 이내 조기 예측 임상의사결정지원시스템**
+## Projects
 
-| 항목 | 내용 |
-|------|------|
-| **역할** | 팀장 · 약물 피처 엔지니어링 (트랙 C) · XGBoost 모델링 · FastAPI 백엔드 |
-| **데이터** | MIMIC-IV 실제 임상 데이터 — 41,576건 |
-| **성능** | **AUROC 0.9753** · AUPRC 0.9611 · F1 0.9093 |
-| **스택** | `Python` `XGBoost` `SHAP` `FastAPI` `PostgreSQL` `HTML/CSS/JS` |
+<br>
 
-**핵심 설계 결정**
-- 0~24h 피처 → 48h 이내 AKI 발생 예측 (KDIGO 국제 표준 기반)
-- 4-Track 피처 (Lab / 허혈 / 약물 / NLP) → Late Fusion 앙상블
-- SHAP TreeExplainer로 "왜 고위험인가" 설명 가능한 AI 구현
-- 데이터 누수 방지 — 피처 윈도우 / 레이블 윈도우 완전 분리
+### AKI 조기 예측 CDSS &nbsp;`Team · 2026`
 
----
+> MIMIC-IV 실제 임상 데이터(41,576건)로 ICU 환자의 **급성 신손상(AKI)을 48시간 전에 예측**하는 CDSS
 
-### MBTI RPG 직업 예측 웹앱
-> **60문항 설문으로 MBTI를 예측하고 판타지 RPG 직업을 추천하는 웹 서비스**
+팀장을 맡아 약물 피처 엔지니어링 트랙을 담당했고, XGBoost 모델링과 FastAPI 백엔드까지 구현했습니다.
+신독성 약물 노출 이력을 SQL 파이프라인으로 정규화하고, SHAP으로 "왜 이 환자가 고위험인지" 설명하는 부분이 핵심이었어요.
 
-| 항목 | 내용 |
-|------|------|
-| **역할** | 기획 · 개발 · 배포 전담 |
-| **스택** | `Python` `Flask` `XGBoost` `SQLite3` `Chart.js` |
-
-**주요 기능**
-- XGBoost 분류기로 MBTI 16유형 예측
-- 6가지 RPG 스탯(무력/마력/신성력/민첩성/통솔력/생존력) 변환
-- Chart.js 레이더 차트로 스탯 시각화
-- 파티 궁합 분석 기능
-
----
-
-## 🛠 Tech Stack
-
-**Language & ML/AI**
+| AUROC | AUPRC | F1 | 데이터 |
+|:-----:|:-----:|:--:|:------:|
+| **0.9753** | 0.9611 | 0.9093 | MIMIC-IV 41,576건 |
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-F7931E?style=flat-square)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-**Backend & Database**
-
+![XGBoost](https://img.shields.io/badge/XGBoost-F7931E?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PC9zdmc+)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+<br>
+
+### MBTI RPG 직업 예측 웹앱 &nbsp;`Solo · 2026`
+
+> 60문항 설문으로 MBTI를 예측하고 판타지 RPG 직업을 추천하는 웹 서비스
+
+60문항으로 MBTI를 예측하고, 결과를 RPG 스탯(무력/마력/신성력/민첩성/통솔력/생존력)으로 변환해서 직업을 추천합니다.
+ISTJ 편향 버그를 디버깅하면서 전처리가 모델 성능에 얼마나 영향을 미치는지 체감한 프로젝트예요.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-
-**Frontend & Tools**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
 
-**Bio Domain**
+<br>
 
-![](https://img.shields.io/badge/Western_blot-6C4F3D?style=flat-square)
-![](https://img.shields.io/badge/qRT--PCR-6C4F3D?style=flat-square)
-![](https://img.shields.io/badge/Cell_Culture-6C4F3D?style=flat-square)
-![](https://img.shields.io/badge/MIMIC--IV-6C4F3D?style=flat-square)
+### 개인 파일 서버 &nbsp;`Solo · 2026`
 
----
+> 포트포워딩 없이 외부에서 접속 가능한 자체 팀 파일 서버
 
-## 📜 Certificates & Education
+팀 파일 공유용으로 만들기 시작했는데 기능이 많아졌습니다. WebSocket으로 대용량 파일을 청크 스트리밍하고, Cloudflare Tunnel로 공개 URL을 자동 발급합니다. CSV/Parquet 미리보기, Jupyter 셀 렌더링, WSI 병리 슬라이드 뷰어까지 붙였어요.
 
-| 자격 / 학력 | 기관 | 연도 |
-|------------|------|------|
-| **SQL 개발자 (SQLD)** | 한국데이터베이스진흥센터 | 2026 |
-| 박사 수료 — 생명과학 / 기능유전체학 | 과학기술연합대학원대학교 | 2021~2023 |
-| 석사 — 의생명과학과 | 아주대학교 의과대학원 | 2017~2019 |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
----
+<br>
 
-## 📄 Publications
-
-> 아주대학교 의과대학원 석사 과정 중 공동 저자로 참여한 논문 목록
-
-- Ufd1 phosphorylation at serine 229 negatively regulates ER-associated degradation *(2019)*
-- Histone deacetylase 6 inhibitor tubastatin A attenuates angiotensin II-induced hypertension *(2019)*
-- NEDD4-induced degradative ubiquitination of PIP5Kα and breast cancer cell proliferation *(2018)*
-- PIP5Kα contributes to Toll-like receptor 2-mediated immune responses in microglial cells *(2017)*
-
----
+## Skills
 
 <div align="center">
 
-*"단순히 코드를 작성하는 개발자가 아니라,*
-*임상 데이터가 어떤 맥락에서 생성되고 어떻게 해석되어야 하는지를 아는 개발자"*
+**Languages & ML**
 
+<img src="https://skillicons.dev/icons?i=python,pytorch&theme=dark" />
+
+**Backend & Database**
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,mysql,sqlite&theme=dark" />
+
+**Frontend & Tools**
+
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,docker&theme=dark" />
+
+</div>
+
+<br>
+
+## 📜 Education & Certificates
+
+<div align="center">
+
+| 구분 | 내용 | 기간 |
+|:---:|---|:---:|
+| 🎓 | 배재대학교 생물의약학과 (학사) | 2011 – 2017 |
+| 🎓 | 아주대학교 의과대학원 의생명과학 (석사) | 2017 – 2019 |
+| 🎓 | UST 기능유전체학 (박사 수료) | 2021 – 2023 |
+| 📋 | **SQLD** · 한국데이터베이스진흥센터 | 2026 |
+
+</div>
+
+<br>
+
+## 📄 Publications
+
+- **Cellular heterogeneity and plasticity during NAFLD progression** · *2023, 주저자*
+- Ufd1 phosphorylation at serine 229 negatively regulates ER-associated degradation · *2019*
+- Histone deacetylase 6 inhibitor tubastatin A attenuates angiotensin II-induced hypertension · *2019*
+- NEDD4-induced degradative ubiquitination of PIP5Kα and breast cancer cell proliferation · *2018*
+- PIP5Kα contributes to Toll-like receptor 2-mediated immune responses in microglial cells · *2017*
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 </div>
