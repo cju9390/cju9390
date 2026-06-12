@@ -1,134 +1,110 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Juyong%20Choi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=생명과학에서%20의료%20AI로&descAlignY=58&descSize=16" />
+# 최주용 | Juyong Choi
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Life+Scientist+%E2%86%92+Medical+AI+Developer;임상+데이터의+맥락을+아는+개발자;From+Bench+to+Code" />
+**생명과학에서 의료 AI로, 도메인을 아는 개발자**
 
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=for-the-badge&logo=github)](https://github.com/cju9390)
-[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=for-the-badge&logo=tistory)](https://taeddy-note.tistory.com)
-[![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=for-the-badge&logo=gmail)](mailto:cju9390@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-cju9390-181717?style=flat-square&logo=github)](https://github.com/cju9390)
+[![Email](https://img.shields.io/badge/Email-cju9390@naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cju9390@naver.com)
+[![Location](https://img.shields.io/badge/Location-대전광역시-0078D4?style=flat-square)](https://maps.google.com)
+[![Blog](https://img.shields.io/badge/Blog-taeddy--note-FF5722?style=flat-square&logo=tistory&logoColor=white)](https://taeddy-note.tistory.com)
 
 </div>
 
-<br>
+---
 
 ## About Me
 
-```python
-choi_juyong = {
-    "role"      : "Life Scientist → Medical AI Developer",
-    "background": "KRIBB 대사제어연구센터 학생연구원 (2021–2025, 4년 6개월)",
-    "education" : ["배재대 생물의약학과 (학사)",
-                   "아주대 의과대학원 의생명과학 (석사)",
-                   "UST 기능유전체학 (박사 수료)"],
-    "now"       : "임상 데이터 맥락을 이해하는 개발자로 성장 중",
-    "interests" : ["Medical AI", "Clinical Data", "Pathology (WSI)"],
-}
-```
+KRIBB 대사조절연구센터에서 4년 6개월간 간 대사 메커니즘을 연구한 생명과학자 출신입니다.  
+Python·SQL·딥러닝을 독학해 의료 AI 개발자로 전환했고, 현재 건양대병원 CHYM 팀에서 신장 이식 CDSS를 개발 중입니다.
 
+**희망 직무:** 의료 AI 개발 / 헬스케어 데이터 분석
 
-<br>
-
-<br>
-
-## Projects
-
-<br>
-
-### AKI 조기 예측 CDSS &nbsp;`Team · 2026`
-
-> MIMIC-IV 실제 임상 데이터(41,576건)로 ICU 환자의 **급성 신손상(AKI)을 48시간 전에 예측**하는 CDSS
-
-팀장을 맡아 약물 피처 엔지니어링 트랙을 담당했고, XGBoost 모델링과 FastAPI 백엔드까지 구현했습니다.
-신독성 약물 노출 이력을 SQL 파이프라인으로 정규화하고, SHAP으로 "왜 이 환자가 고위험인지" 설명하는 부분이 핵심이었어요.
-
-| AUROC | AUPRC | F1 | 데이터 |
-|:-----:|:-----:|:--:|:------:|
-| **0.9753** | 0.9611 | 0.9093 | MIMIC-IV 41,576건 |
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-F7931E?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PC9zdmc+)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
-<br>
-
-### MBTI RPG 직업 예측 웹앱 &nbsp;`Solo · 2026`
-
-> 60문항 설문으로 MBTI를 예측하고 판타지 RPG 직업을 추천하는 웹 서비스
-
-60문항으로 MBTI를 예측하고, 결과를 RPG 스탯(무력/마력/신성력/민첩성/통솔력/생존력)으로 변환해서 직업을 추천합니다.
-ISTJ 편향 버그를 디버깅하면서 전처리가 모델 성능에 얼마나 영향을 미치는지 체감한 프로젝트예요.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-<br>
-
-### 개인 파일 서버 &nbsp;`Solo · 2026`
-
-> 포트포워딩 없이 외부에서 접속 가능한 자체 팀 파일 서버
-
-팀 파일 공유용으로 만들기 시작했는데 기능이 많아졌습니다. WebSocket으로 대용량 파일을 청크 스트리밍하고, Cloudflare Tunnel로 공개 URL을 자동 발급합니다. CSV/Parquet 미리보기, Jupyter 셀 렌더링, WSI 병리 슬라이드 뷰어까지 붙였어요.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-<br>
+---
 
 ## Skills
 
+**ML / AI** — XGBoost, SHAP, Scikit-learn, PyTorch, DINO (ViT), ABMIL, BioBERT  
+**Data** — Python, SQL, Pandas, NumPy, Matplotlib, Seaborn  
+**Database** — PostgreSQL, MySQL, SQLite  
+**Backend** — FastAPI, Flask  
+**Frontend** — HTML5, CSS3, JavaScript, Chart.js, Streamlit  
+**기타** — Git, GitHub, Docker, WebSocket, PWA  
+**Bio Domain** — Western blot, qRT-PCR, 세포배양, 마우스 조직 처리, MIMIC-IV, WSI 병리 분석
+
+---
+
+## Projects
+
+### 🏥 AKI CDSS — 급성 신손상 임상 의사결정 지원 시스템
+`Python` `XGBoost` `SHAP` `FastAPI` `PostgreSQL` `Streamlit` · 팀 프로젝트 (CHYM, 4인) · 팀장
+
+MIMIC-IV 기반으로 ICU 환자의 48시간 내 AKI 발생을 예측하는 ML 모델과 CDSS 대시보드를 구축했습니다.  
+**AUROC 0.9753** 달성. 처방·혈압·신독성 약물·NLP 텍스트 등 7개 영역 멀티트랙 SQL 피처 파이프라인 설계,  
+데이터 누수 문제 해결, 사망 경쟁 이벤트 코호트 정의, BioBERT 기반 NLP Track 구현을 주도했습니다.
+
+---
+
+### 🔬 신장 이식 CDSS — WSI 기반 IgAN 분류 파이프라인
+`PyTorch` `DINO` `ViT-Small` `ABMIL` · 팀 프로젝트 (CHYM) · 진행 중
+
+공개 KPMP 데이터셋(H&E 156장, MT 151장)으로 DINO 자기지도학습 사전학습을 진행 중입니다.  
+EMA Teacher-Student + 멀티크롭 전략 적용, Macenko 염색 정규화로 배치 분리 문제 해결 중.  
+이후 AI Hub 승인 데이터로 Oxford MEST-C 레이블 기반 ABMIL 분류 학습 예정.
+
+---
+
+### ⚔️ MBTI × RPG 판타지 직업 예측 웹앱
+`Flask` `XGBoost` `SQLite3` `Chart.js` · 개인 프로젝트 · 완료
+
+60문항 MBTI 설문 → XGBoost 모델로 유형 예측 → 판타지 RPG 직업(16종) 매핑 + 6가지 스탯 레이더 차트.  
+보완형 파티 추천, 퀘스트 유형별 파티 조합 기능 포함. 문항 방향성 버그(ISTJ 편향) 디버깅 경험.
+
+---
+
+### 🗄 로컬 파일 서버
+`FastAPI` `WebSocket` `PWA` `Cloudflare Tunnel` · 개인 프로젝트 · 완료
+
+FastAPI + WebSocket 기반 팀 공유 파일 서버. Cloudflare Tunnel로 외부 공개, 운영 비용 0원.  
+최대 2GB 파일 전송(SHA-256 무결성 검증), 병리 WSI 딥줌 뷰어(OpenSeadragon), 실시간 채팅,  
+휴지통 복원, Jupyter Notebook 렌더링, 다크모드, PWA 설치 지원.
+
+---
+
+## Experience
+
+**한국생명공학연구원 대사제어연구센터** · 학생연구원 · 2021.02 – 2025.11 (4년 6개월)  
+고지방식이 마우스 모델 대사 이상 실험 설계, 간 조직 처리, Western blot·qRT-PCR 유전자 발현 분석.
+
+---
+
+## Education
+
+**과학기술연합대학원대학교 (UST)** 박사 수료 · 생명과학/기능유전체학 · 2021.09 – 2023.08  
+**아주대학교 의과대학대학원** 석사 · 의생명과학과 · 2017.03 – 2019.08  
+**배재대학교** 학사 · 생물의약학과 · 2011.03 – 2017.02
+
+---
+
+## Certificates & Awards
+
+**SQLD** (2026.03) · **TOEIC 760** (2019.11) · 1종 보통 운전면허 (2012.09)  
+**우수상** — 미래융합교육원 프로젝트·평가·출석 종합 우수 (2026.05)
+
+---
+
+## Publications
+
+- *Cellular heterogeneity and plasticity during NAFLD progression* — **주저자**, 2023
+- *Ufd1 phosphorylation at serine 229 negatively regulates ER-associated degradation* — 공저자, 2019
+- *Histone deacetylase 6 inhibitor tubastatin A attenuates angiotensin II-induced hypertension* — 공저자, 2019
+- *NEDD4-induced degradative ubiquitination of PIP5Kα and breast cancer cell proliferation* — 공저자, 2018
+- *PIP5Kα contributes to Toll-like receptor 2-mediated immune responses in microglial cells* — 공저자, 2017
+
+---
+
 <div align="center">
 
-**Languages & ML**
+📧 cju9390@naver.com · 📍 대전광역시 · [github.com/cju9390](https://github.com/cju9390)
 
-<img src="https://skillicons.dev/icons?i=python,pytorch&theme=dark" />
-
-**Backend & Database**
-
-<img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,mysql,sqlite&theme=dark" />
-
-**Frontend & Tools**
-
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,docker&theme=dark" />
-
-</div>
-
-<br>
-
-## 📜 Education & Certificates
-
-<div align="center">
-
-| 구분 | 내용 | 기간 |
-|:---:|---|:---:|
-| 🎓 | 배재대학교 생물의약학과 (학사) | 2011 – 2017 |
-| 🎓 | 아주대학교 의과대학원 의생명과학 (석사) | 2017 – 2019 |
-| 🎓 | UST 기능유전체학 (박사 수료) | 2021 – 2023 |
-| 📋 | **SQLD** · 한국데이터베이스진흥센터 | 2026 |
-
-</div>
-
-<br>
-
-## 📄 Publications
-
-- **Cellular heterogeneity and plasticity during NAFLD progression** · *2023, 주저자*
-- Ufd1 phosphorylation at serine 229 negatively regulates ER-associated degradation · *2019*
-- Histone deacetylase 6 inhibitor tubastatin A attenuates angiotensin II-induced hypertension · *2019*
-- NEDD4-induced degradative ubiquitination of PIP5Kα and breast cancer cell proliferation · *2018*
-- PIP5Kα contributes to Toll-like receptor 2-mediated immune responses in microglial cells · *2017*
-
-<br>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 </div>
