@@ -17,7 +17,7 @@
 
 KRIBB 대사조절연구센터에서 4년 6개월간 간 대사 메커니즘을 연구한 생명과학자 출신입니다.
 
-현재 미래융합교육원에서 AI·데이터 과정을 수강하며 의료 AI 개발자로 전환 중입니다.  
+현재 미래융합교육원에서 AI·데이터 과정을 수강하며 의료 AI 개발자로 전환 중입니다.
 
 **희망 직무:** 의료 AI 개발 / 헬스케어 데이터 분석
 
@@ -25,17 +25,28 @@ KRIBB 대사조절연구센터에서 4년 6개월간 간 대사 메커니즘을 
 
 ## Skills
 
-**ML / AI** — XGBoost, SHAP, Scikit-learn, PyTorch, DINO (ViT), ABMIL, BioBERT  
+**ML / AI** — XGBoost, SHAP, Scikit-learn, PyTorch, DINO (ViT), ABMIL, phikon-v2, Hibou-L, BioBERT  
 **Data** — Python, SQL, Pandas, NumPy, Matplotlib, Seaborn  
 **Database** — PostgreSQL, MySQL, SQLite  
 **Backend** — FastAPI, Flask  
-**Frontend** — HTML5, CSS3, JavaScript, Chart.js, Streamlit  
-**기타** — Git, GitHub, Docker, WebSocket, PWA  
+**Frontend** — HTML5, CSS3, JavaScript, React, TypeScript, Chart.js, Streamlit  
+**기타** — Git, GitHub, Docker, WebSocket, PWA, UMAP  
 **Bio Domain** — Western blot, qRT-PCR, 세포배양, 마우스 조직 처리, MIMIC-IV, WSI 병리 분석
 
 ---
 
 ## Projects
+
+### WSI 신장 병리 자동 분석 시스템
+`PyTorch` `ABMIL` `phikon-v2` `Hibou-L` `DINOv2` `DINO` `FastAPI` `React` · 개인 프로젝트 · 완료
+
+공개 KPMP 데이터셋(H&E·MT 염색 슬라이드)에서 병리 특화 Foundation Model로 WSI를 인코딩하고,  
+ABMIL 모델로 섬유화·염증·세뇨관 위축·사구체 경화 등 5개 병리 지표를 자동 정량화하는 시스템을 구현했습니다.  
+인코더 5종(phikon-v2, Hibou-L, DINOv2-L, 자체 DINO ep90·ep200) 비교 실험, 5-fold GroupKFold CV,  
+Masked MSE 손실 함수 설계, UMAP + K-Means(k=9) 클러스터링 분석 포함.  
+H&E 섬유화 Pearson r **0.82** 달성. FastAPI 추론 API + React/TypeScript 뷰어 연동.
+
+---
 
 ### AKI CDSS — 급성 신손상 임상 의사결정 지원 시스템
 `Python` `XGBoost` `SHAP` `FastAPI` `PostgreSQL` `Streamlit` · 팀 프로젝트 (CHYM, 4인) · 팀장
@@ -43,15 +54,6 @@ KRIBB 대사조절연구센터에서 4년 6개월간 간 대사 메커니즘을 
 MIMIC-IV 기반으로 ICU 환자의 48시간 내 AKI 발생을 예측하는 ML 모델과 CDSS 대시보드를 구축했습니다.  
 **AUROC 0.9753** 달성. 처방·혈압·신독성 약물·NLP 텍스트 등 7개 영역 멀티트랙 SQL 피처 파이프라인 설계,  
 데이터 누수 문제 해결, 사망 경쟁 이벤트 코호트 정의, BioBERT 기반 NLP Track 구현을 주도했습니다.
-
----
-
-### 신장 이식 CDSS — WSI 기반 IgAN 분류 파이프라인
-`PyTorch` `DINO` `ViT-Small` `ABMIL` · 팀 프로젝트 (CHYM) · 진행 중
-
-공개 KPMP 데이터셋(H&E 156장, MT 151장)으로 DINO 자기지도학습 사전학습을 진행 중입니다.  
-EMA Teacher-Student + 멀티크롭 전략 적용, Macenko 염색 정규화로 배치 분리 문제 해결 중.  
-이후 AI Hub 승인 데이터로 Oxford MEST-C 레이블 기반 ABMIL 분류 학습 예정.
 
 ---
 
@@ -106,6 +108,6 @@ FastAPI + WebSocket 기반 팀 공유 파일 서버. Cloudflare Tunnel로 외부
 
 <div align="center">
 
- cju9390@naver.com · 📍 대전광역시 · [github.com/cju9390](https://github.com/cju9390)
+cju9390@naver.com · 📍 대전광역시 · [github.com/cju9390](https://github.com/cju9390)
 
 </div>
